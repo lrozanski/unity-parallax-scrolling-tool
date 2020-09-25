@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 6127553097136862624}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 19, y: 10.5, z: 1}
+  m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 6127553098262459005}
   m_RootOrder: 0
@@ -71,7 +71,7 @@ SpriteMask:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6916462666192029495, guid: 02297f7d5a561d44a9ebb41737562273, type: 3}
+  m_Sprite: {fileID: 0}
   m_MaskAlphaCutoff: 0.2
   m_FrontSortingLayerID: 0
   m_BackSortingLayerID: 0
@@ -161,13 +161,16 @@ MonoBehaviour:
   distancePerLayer: 1
   horizontalSpeedMultiplier: 1
   verticalSpeedMultiplier: 1
+  roomBounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
   restrictArea:
     m_Center: {x: 0, y: 0, z: 0}
-    m_Extent: {x: 1, y: 1, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
   layers: []
   runInEditMode: 0
-  useSpriteMask: 1
-  originLayer: 0
+  useSpriteMask: 0
+  originLayer: -1
 --- !u!210 &6127553098262458883
 SortingGroup:
   m_ObjectHideFlags: 0

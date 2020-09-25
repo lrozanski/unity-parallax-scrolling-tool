@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="True">
+    <uie:IntegerField label="Origin" value="1" name="origin" />
+    <uie:ObjectField name="originPreview" label="Origin" focusable="true" style="visibility: visible; display: flex;" />
+</ui:UXML>

@@ -1,0 +1,17 @@
+{
+    "name": "RoomBasedParallax.Editor",
+    "references": [
+        "GUID:196c8f8f90c2d4f47a9657121ca6ddc6"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

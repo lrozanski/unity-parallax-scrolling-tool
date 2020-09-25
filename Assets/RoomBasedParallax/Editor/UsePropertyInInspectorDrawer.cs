@@ -13,12 +13,13 @@ namespace RoomBasedParallax {
             var fieldName = fieldAttribute.FieldName;
 
             EditorGUI.BeginChangeCheck();
-            EditorGUI.PropertyField(position, property, label);
+            EditorGUILayout.PropertyField(property, label);
 
             if (EditorGUI.EndChangeCheck()) {
                 property.serializedObject.ApplyModifiedProperties();
                 var targetObject = property.serializedObject.targetObject;
                 var propertyInfo = targetObject.GetType().GetProperty(fieldName, BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
+                
                 if (propertyInfo == null) {
                     Debug.LogError($"Property {fieldName} does not exist in Type {targetObject.GetType().Name}");
                 }
